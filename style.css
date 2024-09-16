@@ -1,30 +1,32 @@
 .slide {
   background-color: #ffffff;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: center; */
   width: 100%;
 }
 
-.slide .div {
-  background-color: #ffffff;
-  width: 1920px;
-  height: 5433px;
-  position: relative;
+.slide .topbar {
+  position: sticky;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
 }
 
 .slide .overlap-group {
-  height: 1159px;
+  /* height: 80vh; */
   top: 0;
-  position: absolute;
-  width: 1920px;
+  /* position: absolute; */
+  width: 100%;
   left: 0;
 }
 
 .slide .rectangle {
   position: absolute;
-  width: 1920px;
-  height: 1080px;
+  width: 100%;
+  height: 100vh;
   top: 79px;
   left: 0;
   background-color: #d9d9d9;
@@ -83,15 +85,6 @@
   line-height: normal;
 }
 
-.slide .rectangle-6 {
-  position: absolute;
-  width: 1920px;
-  height: 137px;
-  top: 0;
-  left: 0;
-  background-color: #000000;
-}
-
 .slide .quiskit-fall-fest {
   position: absolute;
   width: 1380px;
@@ -107,12 +100,43 @@
   line-height: normal;
 }
 
-.slide .overlap {
-  height: 1080px;
-  top: 2239px;
+.slide #about {
   background-color: #e3fdff;
-  position: absolute;
-  width: 1920px;
+  width: 100%;
+  min-height: 200px;
+}
+
+
+.slide .text-wrapper-5 {
+  width: 308px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.slide #agenda {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 200px;
+}
+
+.slide .text-wrapper-4 {
+  width: 374px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 96px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.slide #speakers {
+  /* height: 1080px; */
+  background-color: #e3fdff;
+  width: 100%;
   left: 0;
 }
 
@@ -163,15 +187,6 @@
   border-radius: 150px;
   border: 15px solid;
   border-color: #000000;
-}
-
-.slide .overlap-2 {
-  height: 1080px;
-  top: 4350px;
-  background-color: #e3fdff;
-  position: absolute;
-  width: 1920px;
-  left: 0;
 }
 
 .slide .ellipse-4 {
@@ -239,32 +254,6 @@
   width: 507px;
   top: 109px;
   left: 706px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 96px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.slide .text-wrapper-4 {
-  position: absolute;
-  width: 374px;
-  top: 3442px;
-  left: 773px;
-  font-family: "Inter", Helvetica;
-  font-weight: 400;
-  color: #000000;
-  font-size: 96px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.slide .text-wrapper-5 {
-  position: absolute;
-  width: 308px;
-  top: 1277px;
-  left: 806px;
   font-family: "Inter", Helvetica;
   font-weight: 400;
   color: #000000;
