@@ -147,6 +147,11 @@ body {
   margin-top: 0px;
 }
 
+#about .quick-info {
+  margin-top: 20px;
+  font-size: larger;
+}
+
 #agenda .schedule {
   width: 90%;
   max-width: 1000px;
@@ -155,6 +160,12 @@ body {
 #agenda .schedule .day {
   text-align: center;
   margin-top: 10px;
+}
+
+#agenda .schedule .day p {
+  font-size: larger;
+  font-weight: bold;
+  line-height: 40%;
 }
 
 #agenda .timeline {
