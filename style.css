@@ -201,15 +201,17 @@ body {
 
 #speakers {
   background-color: rgb(245,245,245);
+  /* width: 100%; */
 }
 
 .speaker-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
   padding: 20px;
+  width: 80%;
 }
 
 #speakers h1 {
